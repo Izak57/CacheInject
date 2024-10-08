@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "cacheinject"
+version = "0.1.0"
+description = "A simple tool to inject a code, hidden in the pycache."
+authors = ["Izak57 <izak57k@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
